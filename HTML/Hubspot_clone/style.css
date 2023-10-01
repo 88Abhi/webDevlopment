@@ -1,0 +1,273 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+.container
+{
+   display: block;  
+}
+   
+.box
+{
+    display:flex;
+    justify-content: space-around; 
+  
+} 
+.first 
+{
+ position: relative;
+left: 40px;}
+.second
+{
+    position: relative;
+    right: 120px;
+}
+
+.first , ul
+{   color: black;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start; 
+    padding-right:380px;
+     gap : 70px;
+    list-style: none;
+}   
+ 
+ .second ul li{
+    padding: 20px;
+ }
+.second, ul
+{  
+color: black;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 40px;
+    padding-right: 10px;
+    list-style: none;
+}   
+
+.container ul :hover{
+ font-size: 1rem;
+  transform: translateY(-10px); 
+
+}  
+.box2
+{
+    width: 100%;
+    background-color:white;
+    color: black;
+    border-top: 1px solid black;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.third
+{
+    display: flex; 
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 10px;  
+    position: relative;
+    left: 30px;
+
+}
+.third img{
+    border-radius: 10px;
+    width: 150px;
+}  
+.fourth{ 
+    display: flex;
+    gap: 90px;
+}
+.fourth button
+{   gap: 90px;
+    position: relative;
+    right:270px ;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:orange; 
+    box-shadow:inset 2px 2px 20px white;
+    transition: all 0.5s ; 
+}
+.fourth button:hover{
+    transform: translateY(-10px);
+    color:  white;
+    
+    box-shadow: inset 10px 10px 100px rgba(20,3,255,10);
+} 
+.whole
+{
+    background-color: rgba(255, 192, 203, 0.868);
+    height: 100vh; 
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+   
+}  
+.one{
+   position: relative;
+   width: 55%; 
+   display: block;
+   flex-wrap: wrap;
+   height: 70%; 
+  bottom: -40px;
+  left: 100px;
+} 
+.one button{
+    margin: 10px; 
+    border-radius: 5px; 
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    box-shadow: 2px 2px 9px grey; 
+
+  
+} 
+.one button:hover{
+    transform: scale(1.2) translateY(-1px) translate3d(2px);
+    box-shadow: 5px 2px 10px black; 
+    background-color:aqua;
+} 
+.one button:hover:active{
+    background-color: red;
+}
+   .apply
+   {
+    padding: 10px;
+   }
+.two
+{
+    background-color: white;
+    position: relative; 
+    top: -100px; 
+    right:80px;
+    width: 50%;
+    height:59%;
+    margin-right: 50px; 
+    list-style: none;  
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px aliceblue ,2px 2px 20px black; 
+     display: flex;
+     flex-wrap: wrap;
+
+} 
+.subdiv
+{      position: absolute; 
+    width: 600px;
+     background-color: black;
+     color: aliceblue; 
+     display: flex;  
+    
+   
+} 
+.subdiv ul {
+    justify-content:flex-start;
+    align-items: center;
+    color:whitesmoke; 
+    margin-left: 10px; 
+    box-sizing: border-box;
+    
+}   
+.subdiv .box,.box4{
+    justify-content: flex-end;
+    align-items: center;
+     margin:20px;
+     padding-right: 10px; 
+     width: 30px;
+     height: 1vh;
+     background-color:aliceblue; 
+     border-radius: 2px;
+} 
+.subdiv .box4
+{   width: 45px;
+    height: 2vh;
+    border-radius: 50%; 
+} 
+.subdiv 
+{
+    margin-top:10px ;
+    margin-left: 38px;
+    margin-right: 25px;
+    border-radius: 4px;
+    box-shadow: outset 12px 12px 50px 20px grey;
+} 
+.Text
+{
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    top: 90px;
+    left: 38px;
+    gap: 100px;
+} 
+.button button
+{ 
+    border: 2px solid grey;  
+    border-radius: 2px;
+    margin-right: 30px;
+    width: 70px;
+    height: 35px; 
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: bold ;
+    font-style: oblique; 
+    box-shadow: 2px 2px 5px black; 
+    border-top: 1px solid transparent; 
+    transition: all 0.5s ;
+    
+}   
+ 
+.heading h2{
+    color: rgba(84, 84, 112, 0.426);
+} 
+
+.button :nth-child(2)
+{
+    color: orange;
+}  
+.button :nth-child(3)
+{
+    color: orange;
+} 
+.active,button:hover
+{
+    background-color: orange;
+    color: aliceblue;  
+    transform-style: preserve-3d;
+
+}  
+.pinkish
+{
+     position: relative;
+     top: 48px;
+     left: 35px;
+     bottom: 10px;
+    width: 90%; 
+    border-radius: 5px;
+    box-shadow: 3px 2px 10px lightblue;
+    height: 300px;
+    background-color:aliceblue;
+}
+.small
+{
+    display: flex;
+    justify-content:space-between ;
+}  
+
+.big
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+}
